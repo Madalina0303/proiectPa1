@@ -62,7 +62,7 @@ public class VehicleData {
 
         totalVehicle();
         init();
-        //   valorileNoastre();
+
         for (int i = 0; i < nrTrips; i++) {
             if (viz[i] == 0) { // calatoria nu e asignata
                 System.out.println("Tripul " + i + " nu este asignat ");
@@ -299,67 +299,6 @@ public class VehicleData {
         return a;
     }
 
-    public void valorileNoastre() {
-        disponibil = new ArrayList<>();
-        for (int i = 0; i < nrTotal; i++)
-            disponibil.add(i);
-        viz = new int[nrTrips];
-        Arrays.fill(viz, 0);
-        sol = new int[nrTrips];
-        Arrays.fill(sol, -1);
-        startTime = new int[nrTrips];
-        endTime = new int[nrTrips];
-        a = new int[nrTrips][nrTrips];
-        cost = new int[nrTrips][nrTrips];
-        time = new int[nrTrips][nrTrips];
-        costEnter = new int[nrTrips];
-        costExit = new int[nrTrips];
-        cars = new int[nrTotal];
-        trips = new int[nrTrips];
-        for (int i = 0; i < nrTotal; i++)
-            cars[i] = i;      //de la 0 la nrCars[0] -1 avem id uirile la masinile din primul depozit
-        // la  nrCars[i-1] la  suma nrCars[i-1]+nrCars[i]-1 avem ide uri de la masinile la depozitul i
-
-
-        for (int i = 0; i < nrTrips; i++)
-            trips[i] = i;
-        startTime[0] = 12;
-        endTime[0] = 14;
-        startTime[1] = 14;
-        endTime[1] = 16;
-        startTime[2] = 15;
-        endTime[2] = 17;
-        for (int i = 0; i < 3; i++)
-            for (int j = 0; j < 3; j++)
-                a[i][j] = 0;
-
-        a[0][1] = 1;
-        cost[0][0] = 8;
-        cost[0][1] = 4;
-        cost[0][2] = 2;
-        cost[1][0] = 5;
-        cost[1][1] = 7;
-        cost[1][2] = 2;
-        cost[2][0] = 7;
-        cost[2][1] = 4;
-        cost[2][2] = 1;
-        time[0][0] = 2;
-        time[0][1] = 0;
-        time[0][2] = 2;
-        time[1][0] = 2;
-        time[1][1] = 0;
-        time[1][2] = 2;
-        time[2][0] = 1;
-        time[2][1] = 3;
-        time[2][2] = 3;
-        //127
-        costEnter[0] = 1;
-        costExit[0] = 1;
-        costEnter[1] = 2;
-        costExit[1] = 2;
-        costEnter[2] = 7;
-        costExit[2] = 7;
-    }
 
     public int getNrTotal() {
         return nrTotal;
@@ -386,7 +325,7 @@ public class VehicleData {
         double y2 = circleList.get(indice2).getCenterY();
         circleList.get(indice2).setFill(color);
         double raza = circleList.get(indice1).getRadius();
-        draw(x1 + 2*raza, y1-raza, x2, y2 + raza, p, color);
+        draw(x1 + 2 * raza, y1 - raza, x2, y2 + raza, p, color);
     }
 
     public void paintCtD(int indice1, int indice2, Color color, Pane p, List<Circle> circleList, List<Rectangle> rectangleList) {

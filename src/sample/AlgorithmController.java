@@ -46,21 +46,16 @@ public class AlgorithmController implements Initializable {
         Stage stage = (Stage) (n.getScene().getWindow());
 
         VehicleData vd = (VehicleData) (stage.getUserData());
-        //  System.out.println(stage.getUserData());
-        System.out.println(vd.getNrTrips());
-        /// cod de desenat la mana cercurile reprezentand nodurile calatorii
 
-        // si ai trebuie sa facem un singur depozit si sa reprezentam nodul depozit
-        // cu un dreptunghi
+        System.out.println(vd.getNrTrips());
+
         double x, y;
         double stx = 50;
         double sty = 65;
         double dim = (525 / vd.getNrTrips());
         trips = new ArrayList<>();
         depots = new ArrayList<>();
-//        Circle cc=new Circle(stx,sty, 8);
-//        cc.setFill(Color.ALICEBLUE);
-//        pane1.getChildren().add(cc);
+
         for (int i = 0; i < vd.getNrTrips(); i++) {
             x = stx + dim * i;
             y = sty + (Math.random() * 120);

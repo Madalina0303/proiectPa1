@@ -130,10 +130,10 @@ public class SampleController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-      //  pane2.setBackground(new Background(new BackgroundFill(Color.web("#" + "ff4d4d"), CornerRadii.EMPTY, Insets.EMPTY)));
-        draw(florilor);
-        draw(rozelor);
-      //  playSound();
+        //  pane2.setBackground(new Background(new BackgroundFill(Color.web("#" + "ff4d4d"), CornerRadii.EMPTY, Insets.EMPTY)));
+        //   draw(florilor);
+        //  draw(rozelor);
+        //  playSound();
         pane2.setTranslateX(-700);
 
         TranslateTransition transition = new TranslateTransition();
@@ -423,7 +423,6 @@ public class SampleController implements Initializable {
 //        }
 
     }
-
 
 
     public void next(javafx.scene.input.MouseEvent actionEvent) throws IOException {
