@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SampleController">
+    <children>
+      <ImageView fitHeight="650.0" fitWidth="942.0" pickOnBounds="true">
+         <image>
+            <Image url="@map.jpg" />
+         </image>
+      </ImageView>
+      <Group fx:id="hartaGrup" layoutX="7.0">
+         <children>
+              <Pane fx:id="pane2" prefHeight="334.0" prefWidth="913.0">
+                  <children>
+                      <Circle fx:id="c19" fill="DODGERBLUE" layoutX="26.0" layoutY="120.0" onMouseClicked="#change" radius="9.0" smooth="false" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c7" fill="DODGERBLUE" layoutX="71.0" layoutY="206.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c16" fill="DODGERBLUE" layoutX="215.0" layoutY="120.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c25" fill="DODGERBLUE" layoutX="137.0" layoutY="233.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c22" fill="DODGERBLUE" layoutX="80.0" layoutY="43.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c17" fill="DODGERBLUE" layoutX="106.0" layoutY="138.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c15" fill="DODGERBLUE" layoutX="333.0" layoutY="159.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c21" fill="DODGERBLUE" layoutX="211.0" layoutY="210.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c10" fill="DODGERBLUE" layoutX="342.0" layoutY="89.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c27" fill="DODGERBLUE" layoutX="44.0" layoutY="270.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c11" fill="DODGERBLUE" layoutX="164.0" layoutY="159.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c8" fill="DODGERBLUE" layoutX="146.0" layoutY="61.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Line fx:id="florilor" endX="76.0" endY="51.99999237060547" startX="30.833332061767578" startY="111.66667175292969" />
+                      <Text layoutX="7.0" layoutY="75.0" rotate="-54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Florilor" wrappingWidth="73.1432609558106" />
+                      <Line fx:id="pacii" endX="99.0" endY="-0.9999847412109375" layoutX="56.0" layoutY="160.0" startX="24.0" startY="46.00001525878906" />
+                      <Text layoutX="230.0" layoutY="93.0" rotate="-14.9" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Plopilor" wrappingWidth="80.34301280492889" />
+                      <Line fx:id="rozelor" endX="80.0" endY="51.99999237060547" startX="106.0" startY="129.00001525878906" />
+                      <Text layoutX="69.0" layoutY="95.0" rotate="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Rozelor" wrappingWidth="74.07714462280279" />
+                      <Line fx:id="muncii" endX="173.0" endY="76.00001525878906" layoutX="151.0" layoutY="83.0" startX="22.0" startY="76.00001525878906" />
+                      <Text layoutX="215.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Muncii" />
+                      <Line fx:id="garii" endX="-79.0" endY="39.00001525878906" layoutX="243.0" layoutY="111.0" startX="-97.0" startY="-40.99999237060547" />
+                      <Text layoutX="141.0" layoutY="108.0" rotate="78.7" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Gării" wrappingWidth="56.21484375" />
+                      <Line fx:id="eroilor" endX="166.0887908935547" endY="72.38671112060547" layoutX="161.0" layoutY="93.0" startX="49.99998474121094" startY="107.99998474121094" />
+                      <Text layoutX="241.0" layoutY="196.0" rotate="-22.4" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Eroilor" />
+                      <Line fx:id="trandafirilor" endX="56.01982116699219" endY="-84.42736053466797" layoutX="-26.0" layoutY="213.0" rotate="-3.6" startX="65.69595336914062" startY="48.442378997802734" />
+                      <Line fx:id="oituz" endX="73.0" endY="55.0" layoutX="55.0" layoutY="178.0" startX="22.3284912109375" startY="31.944976806640625" />
+                      <Text layoutX="-31.0" layoutY="204.0" rotate="-99.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Trandafirilor" wrappingWidth="108.76764964574926" />
+                      <Line fx:id="plopilor" endX="85.0" endY="-17.999984741210938" layoutX="248.0" layoutY="110.0" rotate="177.3" startX="-24.0" startY="5.6666717529296875" />
+                      <Line fx:id="mai" endX="42.6715087890625" endY="10.055068969726562" layoutX="115.0" layoutY="145.0" startY="-6.9999847412109375" />
+                      <Text layoutX="113.0" layoutY="142.0" rotate="22.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. 1 Mai" wrappingWidth="56.21484375">
+                          <font>
+                              <Font size="11.0" />
+                          </font>
+                      </Text>
+                      <Text layoutX="73.0" layoutY="173.0" rotate="-21.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Păcii" wrappingWidth="74.07714462280279" />
+                      <Text layoutX="87.0" layoutY="213.0" rotate="26.6" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Oituz" wrappingWidth="55.414215087890625" />
+                      <Line fx:id="blaj" endX="30.086395263671875" endY="2.03125" layoutX="181.0" layoutY="126.0" startX="-6.10467529296875" startY="27.838577270507812" />
+                      <Text layoutX="162.0" layoutY="134.0" rotate="-39.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Blaj " wrappingWidth="44.08572387695318" />
+                      <Line fx:id="gloriei" endX="8.166664123535156" endY="51.66667175292969" layoutX="62.0" layoutY="147.0" startX="-29.373783111572266" startY="-19.666671752929688" />
+                      <Text layoutX="25.0" layoutY="161.0" rotate="62.4" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Gloriei" wrappingWidth="74.07714462280279" />
+                      <Line fx:id="arcu" endX="9.0" endY="-26.999984741210938" layoutX="62.0" layoutY="242.0" startX="-18.0" startY="19.0" />
+                      <Line fx:id="viitorului" endX="45.707122802734375" endY="-6.29290771484375" layoutX="83.0" layoutY="240.0" startX="-30.0" startY="30.0" />
+                      <Text layoutX="48.0" layoutY="245.0" rotate="-63.4" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Arcu" wrappingWidth="46.41424560546875" />
+                      <Text layoutX="56.0" layoutY="269.0" rotate="-23.6" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Viitorului" wrappingWidth="81.7456461560331" />
+                      <Circle fx:id="c12" fill="DODGERBLUE" layoutX="359.0" layoutY="39.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c9" fill="DODGERBLUE" layoutX="223.0" layoutY="48.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c28" fill="DODGERBLUE" layoutX="216.0" layoutY="283.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c24" fill="DODGERBLUE" layoutX="71.0" layoutY="339.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c1" fill="DODGERBLUE" layoutX="530.0" layoutY="119.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c6" fill="DODGERBLUE" layoutX="476.0" layoutY="242.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c20" fill="DODGERBLUE" layoutX="467.0" layoutY="348.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c18" fill="DODGERBLUE" layoutX="530.0" layoutY="288.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c13" fill="DODGERBLUE" layoutX="521.0" layoutY="206.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c3" fill="DODGERBLUE" layoutX="521.0" layoutY="50.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c5" fill="DODGERBLUE" layoutX="449.0" layoutY="90.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c26" fill="DODGERBLUE" layoutX="173.0" layoutY="330.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Circle fx:id="c2" fill="DODGERBLUE" layoutX="279.0" layoutY="329.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Line fx:id="timpului" endX="41.00001525878906" layoutX="123.0" layoutY="330.0" startX="-42.99999237060547" startY="9.0" />
+                      <Circle fx:id="c14" fill="DODGERBLUE" layoutX="378.0" layoutY="347.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Line fx:id="mosu" endX="97.62620544433594" endY="-14.570530891418457" layoutX="116.0" layoutY="307.0" startX="62.859375" startY="16.1298828125" />
+                      <Circle fx:id="c23" fill="DODGERBLUE" layoutX="358.0" layoutY="219.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Line fx:id="aviatorului" endX="204.29287719726562" endY="48.707122802734375" layoutX="172.0" layoutY="291.0" startX="304.7070617675781" startY="-40.70709228515625" />
+                      <Line fx:id="eclipsei" endX="136.99998474121094" endY="18.00000762939453" layoutX="77.0" layoutY="30.0" startX="78.00001525878906" startY="31.00000762939453" />
+                      <Line fx:id="soarelui" endX="101.0" endY="51.99998474121094" layoutX="411.0" layoutY="154.0" startX="14.999969482421875" startY="22.999984741210938" />
+                      <Text layoutX="81.0" layoutY="325.0" rotate="-3.6" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Timpului" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="184.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Olimp" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="373.0" layoutY="56.0" rotate="30.3" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Victoriei" wrappingWidth="67.51588773457183" />
+                      <Text layoutX="237.0" layoutY="35.0" rotate="-5.7" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Columnei" wrappingWidth="82.58653535416073" />
+                      <Text layoutX="260.0" layoutY="276.0" rotate="-50.7" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Fericirii" wrappingWidth="82.58653535416073" />
+                      <Text layoutX="332.0" layoutY="245.0" rotate="-74.1" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Independentei" wrappingWidth="118.78905806425587" />
+                      <Text layoutX="149.0" layoutY="288.0" rotate="-48.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Moșu" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="436.0" layoutY="183.0" rotate="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Soarelui" wrappingWidth="81.7456461560331" />
+                      <Line fx:id="vitejilor" endX="114.99996948242188" endY="13.0" layoutX="243.0" layoutY="215.0" startX="-23.000015258789062" startY="-5.0000152587890625" />
+                      <Text layoutX="238.0" layoutY="233.0" rotate="7.1" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Vitejilor" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="288.0" layoutY="352.0" rotate="6.3" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Sforii" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="310.0" layoutY="284.0" rotate="-98.9" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Morii" wrappingWidth="81.7456461560331" />
+                      <Line fx:id="poetului" endX="81.99996948242188" endY="-48.0" layoutX="358.0" layoutY="138.0" startX="-16.000030517578125" startY="20.999984741210938" />
+                      <Text layoutX="331.0" layoutY="125.0" rotate="-36.9" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Poetului" wrappingWidth="78.6315610433295" />
+                      <Line fx:id="an2021" endX="-17.000030517578125" endY="18.00000762939453" layoutX="359.0" layoutY="62.0" startX="-3.0517578125E-5" startY="-13.999992370605469" />
+                      <Line fx:id="alpin" endX="-8.000030517578125" endY="30.999984741210938" layoutX="341.0" layoutY="119.0" startX="0.999969482421875" startY="-21.000015258789062" />
+                      <Text layoutX="316.0" layoutY="59.0" rotate="-66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. 2021" wrappingWidth="52.085723876953125">
+                          <font>
+                              <Font size="10.0" />
+                          </font>
+                      </Text>
+                      <Line fx:id="alba" endX="6.999969482421875" endY="29.333328247070312" layoutX="349.0" layoutY="182.0" startX="-16.000030517578125" startY="-14.000015258789062" />
+                      <Text layoutX="336.0" layoutY="187.0" rotate="64.4" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Albă" wrappingWidth="44.085723876953125" />
+                      <Line fx:id="tei" endX="1.3333587646484375" endY="40.0" layoutX="214.0" layoutY="234.0" startX="-3.0000152587890625" startY="-15.0" />
+                      <Line fx:id="zorilor" endX="54.99998474121094" endY="45.0" layoutX="152.0" layoutY="238.0" startX="-5.9999847412109375" startY="-5.0" />
+                      <Text layoutX="148.0" layoutY="251.0" rotate="42.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Zorilor" />
+                      <Text layoutX="197.0" layoutY="254.0" rotate="85.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Tei" wrappingWidth="56.21484375" />
+                      <Text layoutX="284.0" layoutY="111.0" rotate="-85.6" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Alpin" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="369.0" layoutY="288.0" rotate="-42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   Str. Aviatorului" wrappingWidth="111.47311234410097" />
+                      <Text layoutX="385.0" layoutY="128.0" rotate="-70.3" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Cicoarei" wrappingWidth="81.7456461560331" />
+                      <Text layoutX="393.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Pădurii" wrappingWidth="56.739056633712266" />
+                      <Text layoutX="472.0" layoutY="324.0" rotate="-40.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Păun" wrappingWidth="80.34301280492889" />
+                      <Text layoutX="499.0" layoutY="165.0" rotate="-84.8" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Pitagora" wrappingWidth="80.34301280492889" />
+                      <Line fx:id="viitor" endX="37.999969482421875" endY="41.0" layoutX="447.0" layoutY="201.0" startX="83.0" startY="78.0" />
+                      <Text layoutX="423.0" layoutY="224.0" rotate="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Alun" wrappingWidth="52.085723876953125" />
+                      <Text layoutX="474.0" layoutY="274.0" rotate="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Viilor" wrappingWidth="52.085723876953125" />
+                      <Text layoutX="513.0" layoutY="246.0" rotate="82.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Nopții" wrappingWidth="52.085723876953125" />
+                      <Line fx:id="soldatilor" endX="92.99996948242188" endY="59.0" layoutX="365.0" layoutY="31.0" startX="147.0" startY="19.00000762939453" />
+                      <Line fx:id="izvor" endX="125.0" endY="60.99998474121094" layoutX="405.0" layoutY="49.0" startX="116.0" startY="10.000007629394531" />
+                      <Text layoutX="449.0" layoutY="89.0" rotate="-39.3" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Soldaților" wrappingWidth="71.66778392160336" />
+                      <Text layoutX="512.0" layoutY="89.0" rotate="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. Izvor" wrappingWidth="55.414215087890625" />
+                      <Text layoutX="158.0" layoutY="46.0" rotate="-9.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Str.Eclipsei" wrappingWidth="62.414184570312386" />
+                      <Text layoutX="176.0" layoutY="80.0" rotate="-79.4" strokeType="OUTSIDE" strokeWidth="0.0" text="Str. 1914" wrappingWidth="62.414184570312386" />
+                      <Line fx:id="olimp" endX="150.99996948242188" endY="27.0" layoutX="122.0" layoutY="302.0" startX="62.99998474121094" startY="30.0" />
+                      <Line fx:id="fericirii" endX="159.99996948242188" endY="20.0" layoutX="123.0" layoutY="299.0" startX="235.70706176757812" startY="-70.29287719726562" />
+                      <Line fx:id="morii" endX="255.99996948242188" endY="39.0" layoutX="120.0" layoutY="299.0" startX="238.99996948242188" startY="-72.0" />
+                      <Line fx:id="independentei" endX="250.58578491210938" endY="35.41424560546875" layoutX="125.0" layoutY="305.0" startX="297.5857849121094" startY="-118.04045104980469" />
+                      <Line fx:id="columnei" endX="276.9999694824219" endY="39.00000762939453" layoutX="71.0" layoutY="-2.0" startX="158.99998474121094" startY="48.00000762939453" />
+                      <Line fx:id="an1914" endX="149.99998474121094" endY="57.00000762939453" layoutX="73.0" layoutY="-2.0" startX="141.99998474121094" startY="110.99998474121094" />
+                      <Line fx:id="victoriei" endX="284.9999694824219" endY="29.00000762939453" layoutX="85.0" layoutY="10.0" startX="356.9999694824219" startY="80.0" />
+                      <Line fx:id="cicoarei" endX="335.6666564941406" endY="148.6666717529297" layoutX="89.0" layoutY="18.0" startX="355.9999694824219" startY="78.99998474121094" />
+                      <Circle fx:id="c4" fill="DODGERBLUE" layoutX="421.0" layoutY="178.0" onMouseClicked="#change" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+                      <Line fx:id="pitagora" endX="114.0" endY="72.99998474121094" layoutX="407.0" layoutY="121.0" startX="123.0" startY="3.9999847412109375" />
+                      <Line fx:id="sforii" endX="206.99996948242188" endY="78.0" layoutX="166.0" layoutY="265.0" startX="119.99996948242188" startY="68.0" />
+                      <Line fx:id="padurii" endX="206.66665649414062" endY="44.666656494140625" layoutX="182.0" layoutY="301.0" startX="279.6666564941406" startY="44.666656494140625" />
+                      <Line fx:id="paun" endX="343.0" endY="21.0" layoutX="184.0" layoutY="274.0" startX="288.9999694824219" startY="68.0" />
+                      <Line fx:id="alun" endX="-17.707122802734375" endY="13.666671752929688" layoutX="441.0" layoutY="174.0" startX="32.999969482421875" startY="62.0" />
+                      <Line fx:id="noptii" endX="78.0" endY="43.99998474121094" layoutX="443.0" layoutY="169.0" startX="87.0" startY="108.0" />
+                  <Line endX="101.0404052734375" endY="56.29292297363281" layoutX="439.0" layoutY="64.0" opacity="0.5" startX="168.1666259765625" startY="152.00001525878906" stroke="#efb43b" strokeWidth="5.0" />
+                  <Line endX="-22.59136962890625" endY="70.00001525878906" layoutX="631.0" layoutY="148.0" opacity="0.5" startX="-92.0" startY="131.0" stroke="#efb43b" strokeWidth="5.0" />
+                  <ImageView fitHeight="100.0" fitWidth="193.0" layoutX="682.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@avion.png" />
+                     </image>
+                  </ImageView>
+                  <Line endX="-35.0" endY="-7.9999847412109375" layoutX="721.0" layoutY="226.0" opacity="0.5" startX="-109.05584716796875" startY="-7.9999847412109375" stroke="#efb43b" strokeWidth="5.0" />
+      
+            
+                        </children>
+                  <effect>
+                      <ColorAdjust />
+                  </effect>
+      
+                    </Pane>
+         </children>
+      </Group>
+        <Group layoutX="219.0" layoutY="408.0">
+            <children>
+                <ImageView fitHeight="110.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@depou.png" />
+                    </image>
+                </ImageView>
+                <Spinner fx:id="cars2" editable="true" initialValue="1" layoutX="31.0" layoutY="55.0" max="5" min="1" prefHeight="25.0" prefWidth="48.0" />
+                <CheckBox fx:id="d2" layoutX="46.0" layoutY="25.0" mnemonicParsing="false" onAction="#checked2" prefHeight="14.0" prefWidth="17.0" textFill="#190202" />
+            </children>
+        </Group>
+        <Group layoutX="675.0" layoutY="404.0">
+            <children>
+                <ImageView fitHeight="110.0" fitWidth="152.0" layoutX="-9.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@depou.png" />
+                    </image>
+                </ImageView>
+                <Spinner fx:id="cars3" editable="true" initialValue="1" layoutX="22.0" layoutY="49.0" max="5" min="1" prefHeight="25.0" prefWidth="48.0" />
+                <CheckBox fx:id="d3" layoutX="38.0" layoutY="21.0" mnemonicParsing="false" onAction="#checked2" prefHeight="14.0" prefWidth="17.0" textFill="#190202" />
+            </children>
+        </Group>
+        <Group layoutX="21.0" layoutY="422.0">
+            <children>
+                <ImageView fitHeight="110.0" fitWidth="152.0" layoutX="-14.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@depou.png" />
+                    </image>
+                </ImageView>
+                <Spinner fx:id="cars1" editable="true" initialValue="1" layoutX="17.0" layoutY="41.0" max="5" min="1" prefHeight="25.0" prefWidth="48.0" />
+                <CheckBox fx:id="d1" layoutX="32.0" layoutY="12.0" mnemonicParsing="false" onAction="#checked2" prefHeight="14.0" prefWidth="17.0" textFill="#190202" />
+            </children>
+        </Group>
+        <ImageView fx:id="semafor" fitHeight="209.0" fitWidth="132.0" layoutX="796.0" layoutY="332.0" onMouseClicked="#next" pickOnBounds="true">
+            <image>
+                <Image url="@semafor.png" />
+            </image>
+        </ImageView>
+
+        <ImageView fx:id="masina" fitHeight="112.0" fitWidth="173.0" layoutX="24.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@masina.png" />
+            </image>
+        </ImageView>
+    </children>
+</Pane>
